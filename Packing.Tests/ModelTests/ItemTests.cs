@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using Packing.Models;
 
-namespace ProjectName.Tests
+namespace Packing.Tests
 {
     [TestClass]
-    public class ClassNameTests
+    public class ItemTests
     {
         // Test methods go here
         [TestMethod]

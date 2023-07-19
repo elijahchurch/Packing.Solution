@@ -1,6 +1,6 @@
 namespace ProjectName.Models
 {
-    public class ClassName
+    public class Item
     {
         // Business Logic goes here.
     }
