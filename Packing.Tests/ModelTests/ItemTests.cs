@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Packing.Models;
+using System.Collections.Generic;
+using System;
 
 namespace Packing.Tests
 {
@@ -8,11 +10,16 @@ namespace Packing.Tests
     {
         // Test methods go here
         [TestMethod]
-        public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+        public void ItemConstructor_CreatesConstructor_Item()
         {
-        // any necessary logic to prep for test; instantiating new classes, etc.
-        // we can also use the arrange, act, assert organization in any test. 
-        Assert.AreEqual(ExpectedResult, CodeToTest);
+            //Arrange
+            Item newItem = new Item("name", "description", "status");
+
+            //Act
+
+            //Assert
+            Assert.AreEqual(typeof(Item), newItem.GetType());
+
         }
     }
 }
